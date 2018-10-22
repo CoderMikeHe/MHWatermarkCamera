@@ -1,0 +1,187 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - BGFMDB (2.0.12):
+    - BGFMDB/BG (= 2.0.12)
+    - BGFMDB/FMDB (= 2.0.12)
+  - BGFMDB/BG (2.0.12):
+    - BGFMDB/FMDB
+  - BGFMDB/FMDB (2.0.12)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - Colours (5.13.0):
+    - Colours/ObjC (= 5.13.0)
+  - Colours/ObjC (5.13.0)
+  - FDFullscreenPopGesture (1.1)
+  - HJCornerRadius (0.0.1)
+  - HYBImageCliped (2.2.4)
+  - IQKeyboardManager (6.1.1)
+  - JPFPSStatus (0.1.1)
+  - KVOController (1.2.0)
+  - LCActionSheet (3.5.0):
+    - Masonry (~> 1.1.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.12)
+  - pop (1.0.10)
+  - ReactiveObjC (3.1.0)
+  - SAMKeychain (1.5.2)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SGEasyButton (0.0.6)
+  - TZImagePickerController (3.0.7)
+  - "UIImage+ImageWithColor (1.4.0)"
+  - "UITableView+FDTemplateLayoutCell (1.6)"
+  - WMPageController (2.5.2)
+  - YYCache (1.0.4)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYImage/WebP (1.0.4):
+    - YYImage/Core
+  - YYModel (1.0.4)
+  - YYText (1.0.7)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+  - ZYCornerRadius (1.0.2)
+
+DEPENDENCIES:
+  - AFNetworking (= 3.2.1)
+  - BGFMDB (= 2.0.12)
+  - BlocksKit (= 2.2.5)
+  - Colours (= 5.13.0)
+  - FDFullscreenPopGesture (= 1.1)
+  - HJCornerRadius (from `https://github.com/panghaijiao/HJCornerRadius.git`)
+  - HYBImageCliped (= 2.2.4)
+  - IQKeyboardManager (= 6.1.1)
+  - JPFPSStatus (= 0.1.1)
+  - KVOController (= 1.2.0)
+  - LCActionSheet (= 3.5.0)
+  - Masonry (= 1.1.0)
+  - MBProgressHUD (= 1.1.0)
+  - MJRefresh (= 3.1.12)
+  - pop (= 1.0.10)
+  - ReactiveObjC (= 3.1.0)
+  - SAMKeychain (= 1.5.2)
+  - SDWebImage (= 4.4.2)
+  - SGEasyButton (= 0.0.6)
+  - TZImagePickerController (= 3.0.7)
+  - "UIImage+ImageWithColor (= 1.4.0)"
+  - "UITableView+FDTemplateLayoutCell (= 1.6)"
+  - WMPageController (= 2.5.2)
+  - YYCache (= 1.0.4)
+  - YYCategories (= 1.0.4)
+  - YYImage (= 1.0.4)
+  - YYImage/WebP
+  - YYModel (= 1.0.4)
+  - YYText (= 1.0.7)
+  - YYWebImage (= 1.0.5)
+  - ZYCornerRadius (= 1.0.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - BGFMDB
+    - BlocksKit
+    - Colours
+    - FDFullscreenPopGesture
+    - HYBImageCliped
+    - IQKeyboardManager
+    - JPFPSStatus
+    - KVOController
+    - LCActionSheet
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - pop
+    - ReactiveObjC
+    - SAMKeychain
+    - SDWebImage
+    - SGEasyButton
+    - TZImagePickerController
+    - "UIImage+ImageWithColor"
+    - "UITableView+FDTemplateLayoutCell"
+    - WMPageController
+    - YYCache
+    - YYCategories
+    - YYImage
+    - YYModel
+    - YYText
+    - YYWebImage
+    - ZYCornerRadius
+
+EXTERNAL SOURCES:
+  HJCornerRadius:
+    :git: https://github.com/panghaijiao/HJCornerRadius.git
+
+CHECKOUT OPTIONS:
+  HJCornerRadius:
+    :commit: fd82fdef4407b898dd055ceeb5a5337953206914
+    :git: https://github.com/panghaijiao/HJCornerRadius.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BGFMDB: cd5e468218d4c7345862d814d313c0888db3a66a
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  HJCornerRadius: 0af191386b5f2e9c4465739b5db22c0acc52923b
+  HYBImageCliped: 22d14431324bc9d056353d6f1490a3bd03fc7dff
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
+  JPFPSStatus: 03f32aa3d4d7d0c5bf56f6f3e7cf8b7280a5f52c
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  LCActionSheet: b30611ab20290fc830976b7ae90ea2dd4142fb1c
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  SAMKeychain: 1865333198217411f35327e8da61b43de79b635b
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SGEasyButton: 988365a76be60c569fda5ee4b6bb225cedf659b4
+  TZImagePickerController: eec24e7c5628288a6657a942d8d296476e66251b
+  "UIImage+ImageWithColor": 891401f732f2f332fefe68c2332c6c955c2a879c
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+  ZYCornerRadius: f0af817be7805b5c63d793042ca7a03f81e14069
+
+PODFILE CHECKSUM: 758fe7223de30f8f59147978d0eb1e94392593ca
+
+COCOAPODS: 1.5.0

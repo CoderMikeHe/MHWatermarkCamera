@@ -1,0 +1,34 @@
+//
+//  MHHTTPRequest.h
+//  WeChat
+//
+//  Created by CoderMikeHe on 2017/10/19.
+//  Copyright © 2017年 CoderMikeHe. All rights reserved.
+//  网络服务层 - 请求
+
+#import <Foundation/Foundation.h>
+#import "MHURLParameters.h"
+#import "MHHTTPResponse.h"
+#import <AFNetworking/AFNetworking.h>
+@interface MHHTTPRequest : NSObject
+/// 请求参数
+@property (nonatomic, readonly, strong) MHURLParameters *urlParameters;
+/**
+ 获取请求类
+ @param params  参数模型
+ @return 请求类
+ */
++(instancetype)requestWithParameters:(MHURLParameters *)parameters;
+-(instancetype)initRequestWithParameters:(MHURLParameters *)parameters;
+
+@end
+
+/// MHHTTPService的分类
+@interface MHHTTPRequest (MHHTTPService)
+
+-(NSURLSessionDataTask *)enqueueResultClass:(Class /*subclass of MHObject*/) resultClass
+                               parsedResult:(BOOL)parsedResult
+                                    success:(nullable void (^)(NSURLSessionDataTask *task, id _Nullable responseObject))success
+                                    failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError *error))failure;
+
+@end

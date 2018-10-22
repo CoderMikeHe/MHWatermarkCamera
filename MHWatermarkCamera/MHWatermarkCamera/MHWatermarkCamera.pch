@@ -1,0 +1,46 @@
+//
+//  MHWatermarkCamera.pch
+//  MHWatermarkCamera
+//
+//  Created by lx on 2018/9/20.
+//  Copyright © 2018年 CoderMikeHe. All rights reserved.
+//
+
+#ifndef MHWatermarkCamera_pch
+#define MHWatermarkCamera_pch
+
+//  前期参与编译的头文件，切记：这里只能放置轻量常用的的头文件，比较大的头文件切勿放置于此，否则会导致debug模式下 编译时间过长。
+/// 系统or第三方框架
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <YYCategories/YYCategories.h>
+#import <Colours/Colours.h>
+#import <ReactiveObjC/ReactiveObjC.h>
+#import <Masonry/Masonry.h>
+#import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
+#import <BlocksKit/BlocksKit.h>
+#import <BlocksKit/BlocksKit+UIKit.h>
+#import <YYText/YYText.h>
+#import <YYWebImage/YYWebImage.h>
+#import <IQKeyboardManager/IQKeyboardManager.h>
+#import <ZYCornerRadius/UIImageView+CornerRadius.h>
+#import <SGEasyButton/SGEasyButton.h>
+
+
+/// User Custom File
+#import "MHMacros.h"
+#import "MHHTTPService.h"
+#import "MHNavigationController.h"
+#import "MHPreferenceSettingHelper.h"
+
+/// User Custom Category
+#import "UIView+MH.h"
+#import "UIScrollView+MHRefresh.h"
+#import "UIBarButtonItem+MHExtension.h"
+#import "UIImage+MHExtension.h"
+#import "SAMKeychain+MHUtil.h"
+#import "UIFont+MHExtension.h"
+#import "NSObject+MH.h"
+#import "UIAlertController+MHColor.h"
+
+#endif /* MHWatermarkCamera_pch */
